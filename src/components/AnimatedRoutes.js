@@ -4,7 +4,7 @@ import SecondComponent from "./SecondComponent";
 import ThirdComponent from "./ThirdComponent";
 import BottomCont from "./BottomCont";
 import Complete from "../Complete";
-import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 function AnimatedRoutes() {
   const location = useLocation();

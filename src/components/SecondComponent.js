@@ -39,17 +39,17 @@ function SecondComponent() {
           </div>
           <div className="next">
             <div className="icon">
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
-                <div className="bo"></div>
+                <div className="circle"></div>
               </div>
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
                 <div className="page2nav"></div>
               </div>
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
-                <div className="bo"></div>
+                <div className="circle"></div>
               </div>
             </div>{" "}
             <Link to="wax" className="to">

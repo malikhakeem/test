@@ -40,15 +40,15 @@ function ThirdComponent() {
 
           <div className="next">
             <div className="icon">
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
-                <div className="bo"></div>
+                <div className="circle"></div>
               </div>
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
-                <div className="ba"></div>
+                <div className="circle"></div>
               </div>
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
                 <div className="page3nav"></div>
               </div>

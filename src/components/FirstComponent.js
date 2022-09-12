@@ -43,17 +43,17 @@ function FirstComponent() {
 
           <div className="next">
             <div className="icon">
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
                 <div className="page1nav"></div>
               </div>
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
-                <div className="bo"></div>
+                <div className="circle"></div>
               </div>
-              <div className="jo">
+              <div className="circle-cont">
                 {" "}
-                <div className="bo"></div>
+                <div className="circle"></div>
               </div>
             </div>{" "}
             <Link to="second" className="to">

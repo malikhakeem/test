@@ -4,6 +4,9 @@
     --next-color: black;
     --next-btn-color: black;
     --start-btn-color: black;
+    --active-nav-color: black;
+    --inactive-nav-color: lightblue;
+    --title-head: 50px;
 }
 
 .first-component {
@@ -20,13 +23,13 @@
 }
 
 .first-tit {
-    font-size: 50px;
+    font-size: var(--title-head);
     font-weight: bold;
     padding-bottom: 30px;
 }
 
 .first-body {
-    font-size: 20px;
+    font-size: var(--font-size);
     color: rgb(159, 154, 154);
 }
 
@@ -37,16 +40,16 @@
 }
 
 .to {
-    font-size: 20px;
-    font-family: roboto;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
     text-decoration: none;
     padding-top: 50px;
-    color: black;
+    color: var(--next-btn-color);
     font-weight: bold;
 }
 
-.bo {
-    background: lightblue;
+.circle {
+    background: var(--inactive-nav-color);
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -56,12 +59,12 @@
     display: flex;
 }
 
-.jo {
+.circle-cont {
     padding: 3px;
 }
 
 .page1nav {
-    background: black;
+    background: var(--active-nav-color);
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -74,7 +77,7 @@
 }
 
 .page2nav {
-    background: black;
+    background: var(--active-nav-color);
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -82,7 +85,7 @@
 }
 
 .ba {
-    background: lightblue;
+    background: var(--inactive-nav-color);
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -90,7 +93,7 @@
 }
 
 .page3nav {
-    background: black;
+    background: var(--active-nav-color);
     border-radius: 50%;
     width: 10px;
     height: 10px;
