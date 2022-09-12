@@ -1,0 +1,98 @@
+:root {
+    --font-family: roboto;
+    --font-size: 20px;
+    --next-color: black;
+    --next-btn-color: black;
+    --start-btn-color: black;
+}
+
+.first-component {
+    font-family: var(--font-family);
+}
+
+.body-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.jo {
+    display: flex;
+}
+
+.first-tit {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.first-body {
+    font-size: 20px;
+    color: rgb(159, 154, 154);
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.to {
+    font-size: 20px;
+    font-family: roboto;
+    text-decoration: none;
+    padding-top: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.bo {
+    background: lightblue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.icon {
+    display: flex;
+}
+
+.jo {
+    padding: 3px;
+}
+
+.page1nav {
+    background: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.icon {
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.page2nav {
+    background: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.ba {
+    background: lightblue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.page3nav {
+    background: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
